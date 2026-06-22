@@ -1,0 +1,20 @@
+.profile{
+
+padding:40px 8%;
+
+}
+
+
+.profile-card{
+
+background:white;
+
+padding:30px;
+
+border-radius:20px;
+
+max-width:500px;
+
+box-shadow:0 10px 30px #ddd;
+
+}
