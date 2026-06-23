@@ -16,3 +16,6 @@ Route::post('/messages',
 
 Route::get('/posts',
 [PostController::class,'index']);
+
+Route::get('/posts',
+[Duddyme::class,'index']);

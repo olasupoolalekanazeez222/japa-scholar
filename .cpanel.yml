@@ -1,5 +1,10 @@
 ---
 deployment:
   tasks:
+    # React deployment
     - export DEPLOYPATH=/home/nnwzhjgh/public_html/community
     - /bin/cp -R $HOME/japa-scholar/frontend/dist/* $DEPLOYPATH
+
+    # Laravel deployment
+    - export APIPATH=/home/nnwzhjgh/japa-api
+    - /bin/cp -R $HOME/japa-scholar/backend/* $APIPATH
