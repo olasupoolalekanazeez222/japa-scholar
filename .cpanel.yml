@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/nnwzhjgh/public_html/community
+    - /bin/cp -R $HOME/japa-scholar/frontend/dist/* $DEPLOYPATH
