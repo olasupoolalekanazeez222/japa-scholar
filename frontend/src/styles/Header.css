@@ -1,0 +1,145 @@
+.header{
+
+    position:sticky;
+
+    top:0;
+
+    z-index:999;
+
+    background:#141D33;
+
+    height:70px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:0 18px;
+
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+
+}
+
+.header-left{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+}
+
+.logo-circle{
+
+    width:46px;
+
+    height:46px;
+
+    border-radius:50%;
+
+    background:#A61D16;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:white;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+}
+
+.header-left h2{
+
+    color:white;
+
+    font-size:17px;
+
+}
+
+.header-left p{
+
+    color:#d8d8d8;
+
+    font-size:11px;
+
+}
+
+.header-right{
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+.header-icon{
+
+    width:40px;
+
+    height:40px;
+
+    border-radius:50%;
+
+    border:none;
+
+    background:white;
+
+    color:#A61D16;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    cursor:pointer;
+
+    transition:.25s;
+
+}
+
+.header-icon:hover{
+
+    transform:scale(1.05);
+
+}
+
+@media(max-width:600px){
+
+.header{
+
+padding:0 12px;
+
+}
+
+.header-left h2{
+
+font-size:15px;
+
+}
+
+.header-left p{
+
+display:none;
+
+}
+
+.logo-circle{
+
+width:40px;
+
+height:40px;
+
+font-size:18px;
+
+}
+
+}

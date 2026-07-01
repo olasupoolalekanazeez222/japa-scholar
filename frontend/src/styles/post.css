@@ -1,0 +1,29 @@
+export const posts=[
+
+{
+
+id:1,
+
+user:"John Watson",
+
+title:"How I Got a Polish Work Visa",
+
+intro:"Moving to Poland looked impossible until I found an employer willing to sponsor me. Here are the first few steps that made the difference...",
+
+body:"Very long article here...",
+
+category:"Poland",
+
+subcategory:"Work Visa",
+
+views:251,
+
+comments:16,
+
+date:"June 18, 2026",
+
+image:"https://picsum.photos/500/300?1"
+
+}
+
+];

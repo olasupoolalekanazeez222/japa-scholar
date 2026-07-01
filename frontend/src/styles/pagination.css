@@ -1,0 +1,47 @@
+.pagination{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+gap:8px;
+
+padding:25px;
+
+padding-bottom:90px;
+
+flex-wrap:wrap;
+
+}
+
+.pagination button{
+
+padding:10px 14px;
+
+border:none;
+
+border-radius:10px;
+
+cursor:pointer;
+
+background:white;
+
+}
+
+.pagination .active{
+
+background:#A61D16;
+
+color:white;
+
+}
+
+.pagination button:disabled{
+
+opacity:.4;
+
+cursor:not-allowed;
+
+}
